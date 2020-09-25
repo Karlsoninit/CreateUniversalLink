@@ -1,0 +1,23 @@
+1) Що таке deep linking і для чого він потрібен - 6 (B)
+
+2) Поставить пакеты react-native firebase - 3 (B)
+
+3) Подкоючить react-native firebase в приложение android - 15 (B)
+
+4) Подкоючить react-native firebase в приложение iOS - (M)
+
+5) Ставим пакеты для dynamic link - 30 (B)
+
+6) config domen  клнсоле firebase - 15 (B)
+
+7) Подкоючить dynamic link в приложение android - 10 (B)
+
+8) Подкоючить dynamic link в приложение iOS - (M)
+
+9) Тестирования для iOS и android 
+
+10) Генерация собственных ссылок с параметрами 
+
+11) Добавления слушателей dinamic link
+
+12) Подключить react native share

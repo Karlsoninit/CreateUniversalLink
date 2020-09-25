@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "807187779448",
+    "firebase_url": "https://deeplinkingtrest.firebaseio.com",
+    "project_id": "deeplinkingtrest",
+    "storage_bucket": "deeplinkingtrest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807187779448:android:0f54b7552e1745d4a8428d",
+        "android_client_info": {
+          "package_name": "com.universallinkproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807187779448-m3h4br3fqikdm0hi6c6tn7t0ckk1ou0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNb94HY6eMCalKH0JoNwfdwDfxBBGJx_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807187779448-m3h4br3fqikdm0hi6c6tn7t0ckk1ou0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

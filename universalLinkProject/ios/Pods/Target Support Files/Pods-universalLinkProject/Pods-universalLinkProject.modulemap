@@ -1,0 +1,6 @@
+module Pods_universalLinkProject {
+  umbrella header "Pods-universalLinkProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

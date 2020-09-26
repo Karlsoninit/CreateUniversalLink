@@ -13,9 +13,6 @@ import dynamicLinks from '@react-native-firebase/dynamic-links';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
-<<<<<<< HEAD
-  //commit
-=======
   const [link, setLink] = useState('');
   async function buildLink() {
     const link = await dynamicLinks().buildLink({
@@ -43,7 +40,6 @@ const App = () => {
     generateInviteLink();
   }, []);
 
->>>>>>> 53a78f5fcfa58dcd849bfe74520ad7f344b16d54
   return (
     <>
       <SafeAreaView style={styles.scrollView}>

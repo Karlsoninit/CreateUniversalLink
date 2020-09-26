@@ -12,6 +12,7 @@ import {SafeAreaView, StyleSheet, Text} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
+  //commit
   return (
     <>
       <SafeAreaView style={styles.scrollView}>

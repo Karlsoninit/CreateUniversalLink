@@ -1,6 +1,0 @@
-module Pods_universalLinkProject_universalLinkProjectTests {
-  umbrella header "Pods-universalLinkProject-universalLinkProjectTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

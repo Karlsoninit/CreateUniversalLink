@@ -7,7 +7,14 @@
  */
 
 import React, {useState, useEffect} from 'react';
-import {SafeAreaView, StyleSheet, TextInput, Text} from 'react-native';
+import {
+  SafeAreaView,
+  StyleSheet,
+  TextInput,
+  Text,
+  Share,
+  Button,
+} from 'react-native';
 import dynamicLinks from '@react-native-firebase/dynamic-links';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
@@ -43,11 +50,21 @@ const App = () => {
     generateInviteLink();
   }, []);
 
+  const onShare = async () => {
+    try {
+      const result = await Share.share({
+        message: link,
+      });
+    } catch (error) {
+      alert(error.message);
+    }
+  };
   return (
     <>
       <SafeAreaView style={styles.scrollView}>
         <Text>{link}</Text>
         <TextInput value={link} />
+        <Button onPress={onShare} title="Share" />
       </SafeAreaView>
     </>
   );
